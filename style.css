@@ -1,0 +1,39 @@
+/*
+    F.R.I.D.A.Y. (Mark 1)
+    Author: Fernando MÃ©ndez
+    Web: https://fermdez.ddns.net/
+    Twitter: @HumperCobra
+*/
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+body {
+    background-color: #1f1f1f;
+}
+div {
+    padding: 50px;
+    margin: 40px;
+    box-shadow: 0px 0px 12px #ccc;
+    background-color: #e6e6e6;
+    font-size: 30px
+}
+div[type="copy"]{
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+    background-color: #9c9c9c;
+    font-size: 10px
+}
+input{
+    padding: 9px;
+    margin: 40px;
+    font-size: 18px;
+    border: solid 1px #aaa;
+    width: 40%;
+}
+input[type="button"] {
+    margin: 0px;
+    width: 17%;
+}
