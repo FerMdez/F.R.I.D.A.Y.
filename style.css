@@ -19,6 +19,10 @@ div {
     background-color: #e6e6e6;
     font-size: 30px
 }
+img {
+    width: 32%;
+    height: auto;
+    }
 div[type="copy"]{
     padding: 20px;
     margin: 10px;

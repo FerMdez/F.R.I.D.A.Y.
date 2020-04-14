@@ -13,12 +13,17 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <noscript><link rel="stylesheet" href="noscript.css" /></noscript>
     <link rel="icon" href="friday.jpg" sizes="192x192" />
+    <style>
+        #heading { color: #dbdbdb; }
+    </style>
 </head>
 <body>
     <!--Entrada de Voz-->
-    <div id="in"></div>
+    <center><h2 id="heading">Transcripción de voz a texto:</h2></center>
+    <div id="in">Diga "Hola FRIDAY" para comenzar. (Refresque la página si no funciona)</div>
 
     <!--Salida de voz-->
+    <center><h2 id="heading">Transcripción de texto a voz:</h2></center>
     <input type="text" id="out" placeholder="Escribe aquí...">
     <input type="button" id="speak" value="Pulsa para hablar">
 
@@ -27,7 +32,9 @@
         <div type="copy">
             <center><h2>&copy; F.R.I.D.A.Y. by <a href="https://fermdez.ddns.net/" target="_blank">Fernando Méndez</a></h2></center>
         </div>
-        <center><span class="image fit main"><img src="otea.png" alt="" /></span></center>
+        <center>
+            <span class="image fit main"><img src="otea.png" alt="" /></span>
+        </center>
     </footer>
 
     <!--Scripts-->

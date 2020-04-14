@@ -1,12 +1,13 @@
 /*
     F.R.I.D.A.Y. (Mark 1)
-    Author: Fernando MÃ©ndez
+    Author: Fernando Méndez
     Web: https://fermdez.ddns.net/
     Twitter: @HumperCobra
 */
-let rec;
+var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+//var rec = new SpeechRecognition();
     if (!("webkitSpeechRecognition" in window)) {
-    	alert("Este navegador no soporta reconocimiento de voz. Por favor, use Chrome. | This browser does not support speech recognition. Please, use Chrome.");
+        alert("Este navegador no soporta reconocimiento de voz. Por favor, use Chrome. | This browser does not support speech recognition. Please, use Chrome.");
     }
     else {
     	rec = new webkitSpeechRecognition();
